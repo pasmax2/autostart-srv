@@ -17,3 +17,7 @@ Ce service surveille le répertoire `/srv` et lance automatiquement les projets 
    systemctl enable docker-autostart.service
    systemctl start docker-autostart.service
    systemctl daemon-reload
+
+## Méthode #2 installation automatique
+```bash
+   curl -sSL https://raw.githubusercontent.com/pasmax2/autostart-srv/main/install.sh | sudo bash
