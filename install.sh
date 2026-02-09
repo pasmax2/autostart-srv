@@ -11,7 +11,7 @@ echo "Démarrage de l'installation de autostart-srv..."
 
 # 1. Téléchargement du script bash
 echo "Téléchargement de autostart.sh..."
-curl -sSL "$BASE_URL/autostart.sh" -o "$BIN_PATH"
+curl -sSL "$BASE_URL/autostart" -o "$BIN_PATH"
 chmod +x "$BIN_PATH"
 
 # 2. Téléchargement du fichier de service systemd
