@@ -5,8 +5,8 @@ Requires=docker.service
 
 [Service]
 Type=oneshot
-ExecStart=/bin/bash /srv/autostart.sh
-RemainAfterExit=true
+ExecStart=/usr/local/bin/autostart
+RemainAfterExit=yes
 
 [Install]
 WantedBy=multi-user.target
